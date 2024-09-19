@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Aprendiendo formularios</h1>
+    <form action="#" method="GET">
+        <h2>Hola</h2>
+        <h2>Adios</h2>
+        <!-- Entrada para Nombre -->
+        <div>
+            <label for="nombre">Prenom</label>
+            <input type="text" name="firstName" id="nombre">
+        </div>
+        <!-- Entrada para Apellido -->
+        <div>
+            <label for="apellido">Nom</label>
+            <input type="text" name="lastName" id="apellido">
+        </div>
+        <div>
+            <label for="programmingLanguages">Choose a programming language:</label>
+
+            <select name="programmingLanguages" id="programmingLanguages">
+                <optgroup label="Compilados">
+                    <option value="java">Java</option>
+                    <option value="c">C</option>
+                </optgroup>
+                <optgroup label="Interpretados">
+                    <option value="py">Python</option>
+                    <option value="js">JavaScript</option>
+                    <option value="ts">TypeScript</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <button type="submit">Crear</button>
+
+    </form>
+</body>
+
+</html>
