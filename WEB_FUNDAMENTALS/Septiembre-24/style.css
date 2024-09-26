@@ -1,0 +1,25 @@
+*{
+    outline: 2px dashed black;
+}
+
+
+.box200x200 {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    margin: 8px;
+    padding:16px
+}
+
+.box200x200>h1{
+    background-color: aqua;
+}
+
+.borderBox{
+    box-sizing: border-box;
+    display: inline-block;
+}
+.contentBox{
+    box-sizing: content-box;
+    display: inline-block;
+}
