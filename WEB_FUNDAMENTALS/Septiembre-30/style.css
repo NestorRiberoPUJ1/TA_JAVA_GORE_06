@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 2px dashed black;
+}
+
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    height: 64px;
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header>div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+main {
+    background-color: orange;
+    min-height: 400px;
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+}
+
+section {
+    min-height: 100%;
+    flex: 1;
+    background: #00bbff;
+    background: linear-gradient(180deg, #00bbff 0%, #00bbff 20%, #ffffff 20%, #ffffff 100%);
+}
+
+aside {
+    background-color: darkslategrey;
+    min-height: 100%;
+    width: 250px;
+}
+
+
+.img-round {
+    height: 80px;
+    width: 80px;
+    background-color: fuchsia;
+    border-radius: 50%;
+}
+
+section>.img-round {
+    margin: 24px 0px 24px 24px;
+}
+
+.solicitud {
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.solicitud>img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.solicitud>h3 {
+    font-size: small;
+    flex: 1;
+}
+
+.solicitud>div {
+    display: flex;
+}
+
+.solicitud button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+}
